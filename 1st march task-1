@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            button{
+                background-color: blue;
+                color: whitesmoke;
+            }
+            p{
+                background-color: aquamarine;
+            }
+            h2{
+                background-color: pink;
+            }
+            .hi div {
+        display: none;
+       }
+       .hi div:target{
+        display: block;
+       }
+        </style>
+    </head>
+<body>
+    <div class="hi">
+<a href="#chapter1"><button>chapter1</button></a> 
+<a href="#chapter2"><button>chapter2</button></a>
+<a href="#chapter3"><button>chapter3</button></a>
+<hr>
+<div id="chapter1">
+<h2>chapter1<center><img src="https://m.media-amazon.com/images/I/51JoXgnIciL._SY466_.jpg" width="100" hight="100"></center></h2>
+<p>In Believe in Yourself, Dr. Murphy stresses about having faith in ones abilities, believing in the inner self and in having the courage to chase your dream, come what may. The book was first published in 1955 but remains as popular as it was then. Being a preacher, with decades of experience behind him, Dr Murphy delves into lives of people to demonstrate the all encompassing power of self. By citing interesting episodes from the lives of artists, writers, entrepreneurs and ordinary people, who achieved acclaim and success, the author goes on to emphasize that one thread that runs through was a strong belief in oneself. The book has proved highly motivational and has enabled many readers to overcome low self esteem and achieve their objectives in life. The author points out various ways by which one can overcome defeat, hardships and keep on the righteous track to succeed by using only fair means. People who are low in confidence, need a direction in life or a guiding light to keep them motivated makes this subjective compulsion a key to success for any individual says the author.</p>
+</div>
+<div id="chapter2">
+<h2>chapter2<center><img src="https://rukminim2.flixcart.com/image/832/832/xif0q/regionalbooks/n/b/h/all-the-light-we-cannot-see-original-imagse5kkxpj977j.jpeg?q=70&crop=false" width="100" hight="100"></center></h2>
+<p>Marie-Laure lives in Paris near the Museum of Natural History, where her father works. When she is twelve, the Nazis occupy Paris and father and daughter flee to the walled citadel of Saint-Malo, where Marie-Laure’s reclusive great uncle lives in a tall house by the sea. With them they carry what might be the museum’s most valuable and dangerous jewel</p>
+</div>
+<div id="chapter3">
+<h2>chapter3<center><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTmcyPKZ4wHJzQzZSBsy5dZ0tt6C66JCOUJAuakOly9Vxkncbs6f2cJEzPX3xndeZL78PVqJwhwc3_Sn3rvXcJyUofulHUxaQqCGyx5QFMTpVhOxqv6jX03zA" width="100" hight="100"></center></h2>
+<p>Shortlisted for the Booker Prize Shortlisted for the Baileys Prize for Women's Fiction Winner of Fiction Book of the Year at the British Book Awards Finalist for the National Book Awards The million copy bestseller, A Little Life by Hanya Yanagihara, is an immensely powerful and heartbreaking novel of brotherly love and the limits of human endurance.When four graduates from a small Massachusetts college move to New York to make their way, they're broke, adrift, and buoyed only by their friendship and ambition. There is kind, handsome Willem, an aspiring actor; JB, a quick-witted, sometimes cruel Brooklyn-born painter seeking entry to the art world; Malcolm, a frustrated architect at a prominent firm; and withdrawn, brilliant, enigmatic Jude, who serves as their centre of gravity. Over the decades, their relationships deepen and darken, tinged by addiction, success, and pride. Yet their greatest challenge, each comes to realize, is Jude himself, by midlife a terrifyingly talented litigator yet an increasingly broken man, his mind and body scarred by an unspeakable childhood, and haunted by what he fears is a degree of trauma that he'll not only be unable to overcome ? but that will define his life forever.</p>
+</div>
+</div>
+</body>
+</html>
