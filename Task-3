@@ -1,0 +1,275 @@
+<html>
+   <head>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        h1{
+            background-color: gray;
+        }
+        button{
+            background-color: gray;
+        }
+        .tab div{ 
+            display: none;
+        }
+        .tab div:target{
+            display: block;
+        }
+
+        
+       
+    </style>
+   </head>
+   <body>   
+    <div class="tab">
+    <h1>HTML AND CSS OBJECTIVE QUESTIONS</h1><hr>
+    <a href="#a"><button>1 to 5</button></a>
+    <a href="#b"><button>6 to 10</button></a>
+    <a href="#c"><button>11 to 15</button></a>
+    <a href="#d"><button>16 to 20</button></a>
+    <a href="#e"><button>21 to 25</button></a>
+    <ol>
+        <div id="a">
+        <li>The full form of CSS is:</li>
+        <input type="radio">cascading style sheets<br>
+        <input type="radio">coloured special sheets<br>
+        <input type="radio">color and style sheets<br>
+        <input type="radio">non of the above<br>
+    <details>
+        <summary><button>check answer</button></summary>
+        Answer: A) CSS stands for Cascading Style Sheets.
+    </details>
+        <li>How can we change the background color of an element?</li>
+        <input type="radio">background-color<br>
+        <input type="radio">color<br>
+        <input type="radio">both a and b<br>
+        <input type="radio">non of the above<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: Answer: A) background-color property is used to change the background color of an element.
+        </details>
+        <li>How can we change the text color of an element?</li>
+        <input type="radio">background-color<br>
+        <input type="radio">color<br>
+        <input type="radio">both a and b<br>
+        <input type="radio">non of the above<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: B) The color property is used to change the text color of an element.
+        </details>
+        <li>In how many ways can CSS be written in?</li>
+        <input type="radio">1<br>
+        <input type="radio">2<br>
+        <input type="radio">3<br>
+        <input type="radio">4<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: C) CSS can be written in 3 ways: Inline, External, and Internal CSS.
+        </details>
+        <li>What type of CSS is the following code snippet?</li>
+        <!--<h1 style="color:blue;">A Blue Heading</h1>-->
+        <input type="radio">inline<br>
+        <input type="radio">internal<br>
+        <input type="radio">external<br>
+        <input type="radio">non of the above<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: A) The above code snippet is an example of Inline CSS.
+       
+        </details>
+    </div>
+    <div id="b">
+        <li>What type of CSS is generally recommended for designing large web pages?</li>
+        <input type="radio">inline<br>
+        <input type="radio">internal<br>
+        <input type="radio">external<br>
+        <input type="radio">non of the above<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: C) Generally External CSS is used for large web pages due to the idea of “Separation of Concerns”.
+        </details>
+        <li>Which HTML tag is used to declare internal CSS?</li>
+        <input type="radio">style<br>
+        <input type="radio">link<br>
+        <input type="radio">script<br>
+       <input type="radio">non of the above<br>
+       <details>
+        <summary><button>check answer</button></summary>
+        Answer: A) The HTML style tag is used to declare internal CSS.
+    </details>
+    <li>How can we select an element with a specific ID in CSS?</li>
+    <input type="radio">#<br>
+    <input type="radio">.<br>
+    <input type="radio">^<br>
+    <input type="radio">non of the above<br>
+    <details>
+        <summary><button>check answer</button></summary>
+        Answer: A) IDs are selected in CSS using # followed by the ID name.
+    </details>
+    <li>How can we select an element with a specific Class in CSS?</li>
+    <input type="radio">#<br>
+    <input type="radio">.<br>
+    <input type="radio">^<br>
+    <details>
+        <summary><button>check answer</button></summary>
+        Answer: B) Classes are selected in CSS using . followed by the Class name.
+    </details>
+    <li>How can we write comments in CSS?</li>
+    <input type="radio">/**/<br>
+    <input type="radio">//<br>
+    <input type="radio">#<br>
+    <input type="radio">all of the above<br>
+    <details>
+        <summary><button>check answer</button></summary>
+        Answer: A) /* */ is used to write comments in CSS.
+    </details>
+</div>
+<div id="c">
+    <li> 
+        In the below code snippet, in what order will the margins be added?
+        
+        p {
+          margin: 25px 50px 75px 100px;
+        }</li>
+        <input type="radio">top,right,bottom,left<br>
+        <input type="radio">top,left,bottom,right<br>
+        <input type="radio">top,bottom,right,left<br>
+        <input type="radio">right,left,top,bottom<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: A) The margins are added in the order given in option A.
+        </details>
+        <li>Can negative values be allowed in padding property?</li>
+        <input type="radio">yes<br>
+        <input type="radio">no<br>
+        <input type="radio">depends on property<br>
+        <input type="radio">non of the above<br>
+        <details>
+            <summary><button>check answer</button></summary>
+            Answer: B) Padding Property values cannot be negative.
+        </details>
+        <li>The CSS property used to specify the transparency of an element is?</li>
+         <input type="radio">opacity<br>
+         <input type="radio">visibility<br>
+         <input type="radio">filter<br>
+         <input type="radio">non of the above<br>
+         <details>
+            <summary><button>check answer</button></summary>
+            Answer: A) Opacity is used to specify the transparency of an element.
+        </details>
+        <li> 
+            How can we specify the spacing between each letter in a text in CSS?</li>
+            <input type="radio">alpha-spacing<br>
+            <input type="radio">letter-spacing<br>
+            <input type="radio">character-spacing<br>
+            <input type="radio">non of the above<br>
+            <details>
+                <summary><button>check answer</button></summary>
+                Answer: B) letter-spacing property specifies the spacing between each letter in a text in CSS.
+            </details>
+            <li>What is the correct syntax for referring an external CSS?</li>
+            <input type="radio">link rel="stylesheet" type="text/css"href="style.css"<br>
+            <input type="radio">style rel="stylesheet" type="text/css"href="style.css"<br>
+            <input type="radio">boyh a and b<br>
+            <input type="radio">non of the above<br>
+            <details>
+                <summary><button>check answer</button></summary>
+                Answer: A) The correct way to refer external CSS from a is given in option A.
+            </details>
+        </div>
+        <div id="d">
+            <li>Which of the following are valid ways to represent a colour in CSS?</li>
+            <input type="radio">a valid color name<br>
+            <input type="radio">RGB values<br>
+            <input type="radio">HEX values<br>
+            <input type="radio">all the above<br>
+            <details>
+                <summary><button>check answer</button></summary>
+                Answer: D) All of the above options are valid ways to represent a color in CSS.
+            </details>
+            <li>Which of the following is the correct way to select all h1 headers in a div element?</li>
+            <input type="radio">div h1<br>
+            <input type="radio">div-h1<br>
+            <input type="radio">h1<br>
+            <input type="radio">non of the above<br>
+            <details>
+                <summary><button>check answer</button></summary>
+                Answer: A) The CSS descendant selector is used to match the descendant elements of a particular element and represent it using a single space.
+            </details>
+            <li>We can make rounded borders around elements using which CSS element?</li>
+            <input type="radio">border-collapse<br>
+            <input type="radio">border-round<br>
+            <input type="radio">border-radius<br>
+            <input type="radio">non of the above<br>
+            <details>
+                <summary><button>check answer</button></summary>
+                Answer: C) The border-radius property is used to make rounded borders around some given element.
+            </details>
+            <li>
+                How can we set the maximum width of the elements content box using CSS?</li>
+                <input type="radio">height property<br>
+                <input type="radio">max-height property<br>
+                <input type="radio">max-width property<br>
+                <input type="radio">non of the above<br>
+                <details>
+                    <summary><button>check answer</button></summary>
+                    Answer: C) The max-width property in CSS is used to set the maximum width of the element's content box.
+                </details>
+                <li>Which CSS property is used to specify different border styles?</li>
+                <input type="radio">border-style<br>
+                <input type="radio">border<br>
+                <input type="radio">both a abd b<br>
+                <input type="radio">non of the above<br>
+                <details>
+                    <summary><button>check answer</button></summary>
+                    Answer: A) border-style property is used to specify different border styles in CSS.
+                </details>
+            </div>
+                <div id="e">
+                    <li>Which of the following property specifies the look and design of an outline?</li>
+                    <input type="radio">outline-style<br>
+                    <input type="radio">outline<br>
+                    <input type="radio">outline-font<br>
+                    <input type="radio">non of the above<br>
+                    <details>
+                        <summary><button>check answer</button></summary>
+                        Answer: A) The outline-style CSS property is used to set the style of the outline of an element.
+                    </details>
+                    <li>What does the abbreviation HTML stand for?</li></b><br>
+                    <input type="radio">Hyper Text Markup Language.<br>
+                    <input type="radio">High Text Markup Language.<br>
+                    <input type="radio">Hyper Text Markdown Language.<br>
+                    <input type="radio" type="reset">None of the above.<br><br>
+                    
+                <details><summary>Check Answer</summary>
+                    HTML stands for HyperText Markup Language.
+                </details><br>
+                <b><li>How many sizes of headers are available in HTML by default?</li></b><br>
+                <input type="radio">5<br>
+                <input type="radio">1<br>
+                <input type="radio">3<br>
+                <input type="radio">6<br><br>
+                <details><summary><button>check Answer</button></summary>6 headers are available in HTML by default ranging from h1 to h6.
+            
+                </details><br>
+                <li>What is the smallest header in HTML by default?</li>
+                <input type="radio">h1<br>
+                <input type="radio">h4<br>
+                <input type="radio">h2<br>
+                <input type="radio">h6<br><br>
+                <details><summary><button>check Answer</button></summary>
+                    h6 is the smallest header in HTML by default.
+                </details><br>
+                <li>What are the types of lists available in HTML?</li>
+                <input type="radio">Ordered,Unordered Lists<br>
+                <input type="radio">Bulleted,Numbered Lists<br>
+                <input type="radio">Named,Unnamed Lists<br>
+                <input type="radio">None of the above<br><br>
+                <details><summary><button>check Answer</button></summary>The lists available in HTML are Ordered and Unordered List.
+                </details><br>
+            </div>
+</ol>
+</div>
+   </body>
+</html>
